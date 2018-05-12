@@ -1,0 +1,478 @@
+\documentclass[6pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage[margin=0.25in]{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+%\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+\geometry{landscape}                		% Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+								% TeX will automatically convert eps --> pdf in pdflatex		
+
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+ 
+\usepackage[usenames, dvipsnames]{color}
+ 
+
+ 
+\usepackage{multicol}
+\usepackage{color,soul}
+
+\title{Modern Physics Formulas}
+\author{Joseph Crandall}
+%\date{}							% Activate to display a given date or no date
+
+\begin{document}
+%\begin{multicols}{1}
+
+%\maketitle
+\colorbox{YellowGreen}{Joe Crandall's ModernPhysics Formula Sheet, covers special relativity and basic quantum mechanics, equations are repeated, }
+\colorbox{SeaGreen}{Fields of Study}
+\colorbox{Orange}{Section}
+\colorbox{Red}{Topic unknown}
+\colorbox{Cyan}{Topic}
+\colorbox{Violet}{SubTopic}
+\colorbox{Yellow}{Spacing for readability}
+\colorbox{SeaGreen}{Special Relativity}
+\colorbox{Orange}{Principal of Relativity}
+\colorbox{Orange}{ The Nature of Time}
+\hl{$\Delta t >  \Delta s > \Delta \tau$}
+\colorbox{Orange}{The Metric Equation}
+$\Delta s^{2} = \Delta t^2 - \Delta d^2 = \Delta t^{2} - \Delta x^{2} - \Delta y^{2} - \Delta z^{2}$
+\colorbox{Orange}{Proper Time}
+\hl{$\Delta \tau_{AB} = \int_{t_A}^{t_B} (1-v^2)^{1/2} dt$}
+$ \Delta \tau_{AB} = (1-v^2)^{1/2} \Delta t_{AB} $
+\hl{$v = constant $}
+$ v_0 = \frac{\sqrt{Gm}}{r} $
+\hl{$ G = 6.673 x 10^{-11}$}
+Binomial\,Approximation $ \sqrt{1-v^2} \approx 1-\frac{1}{2}v^2 for\, v \ll c$
+\hl{$ \Delta \tau_{AB} - \Delta t_{AB} = -\frac{1}{2}v^2 \Delta t_{AB}$}
+\colorbox{Orange}{Coordinate Transformations}
+$\Delta t^{\prime} = \gamma(\Delta t-\beta \Delta x) $
+\hl{$\Delta x^{\prime} = \gamma(-\beta \Delta t + \Delta x) $}
+$\Delta y^{\prime} = \Delta y $
+\hl{$\Delta z^{\prime} = \Delta z $}
+$\Delta t = \gamma(\Delta t^{\prime} + \beta \Delta x^{\prime}) $ 
+\hl{$\Delta x = \gamma(\beta \Delta t^{\prime} + \Delta x^{\prime}) $ }
+$\Delta y = \Delta y^{\prime} $
+\hl{$\Delta z = \Delta z^{\prime} $}
+$\gamma = 1/\sqrt{1-\beta^{2}} $
+\colorbox{Orange}{Lorentz Contraction}
+$L = L_R \sqrt{1-v^2} $
+\hl{$\theta = tan^{-1} (\frac{tan\theta^{\prime}}{\sqrt{1-\beta^2}})$}
+\colorbox{Orange}{The Cosmic-Speed Limit}
+$v_x^{\prime} = \frac{v_x - \beta}{1 - \beta v_x}  $
+\hl{$v_x = \frac{v_x^{\prime} + \beta}{1 + \beta v_x^{\prime}}  $}
+$v_y^{\prime} = \frac{v_y \sqrt{1 - \beta^2}}		{1 - \beta v_x}  $
+\hl{$v_y= \frac{v_y^{\prime} \sqrt{ 1 - \beta^2}}		{1 + \beta v_x^{\prime}} $}
+$v_z^{\prime} = \frac{v_z \sqrt{1 - \beta^2}}		{1 - \beta v_x}  $
+\hl{$v_z = \frac	{v_z^{\prime} \sqrt{ 1 - \beta^2}}	{1 + \beta v_x^{\prime}} $}
+\colorbox{Orange}{Principal of Four-Momentum / Conservation of Four-Momentum}
+\[
+  \left[ {\begin{array}{c}
+   P_t\\
+   P_x\\
+   P_y\\
+   P_z\\
+  \end{array} } \right]
+  =
+   \left[ {\begin{array}{c}
+   m / \sqrt{1-v^2}\\
+   mv_x / \sqrt{1-v^2}\\
+   mv_y / \sqrt{1-v^2}\\
+   mv_z / \sqrt{1-v^2}\\
+  \end{array} } \right]
+\quad \quad \quad
+   \left[ {\begin{array}{c}
+   E_1\\
+   P_1x\\
+   P_1y\\
+   P_1z\\
+  \end{array} } \right]
+  +
+    \left[ {\begin{array}{c}
+   E_2\\
+   P_2x\\
+   P_2y\\
+   P_2z\\
+  \end{array} } \right]
+  =
+    \left[ {\begin{array}{c}
+   E_3\\
+   P_3x\\
+   P_3y\\
+   P_3z\\
+  \end{array} } \right]
+  +
+    \left[ {\begin{array}{c}
+   E_4\\
+   P_4x\\
+   P_4y\\
+   P_4z\\
+  \end{array} } \right]
+\]
+
+\hl{$E = \frac{m}{\sqrt{1-v^2}} $}
+$\rho  = \frac{mv}{\sqrt{1-v^2}} $
+\hl{$K  = E - m $}
+$\frac{\rho}{E} = v$
+\hl{Four Momemtum's Time and Space Components}
+$\rho_t = \frac{m}{\sqrt{1-v^2}} $
+\hl{$\rho = m + \frac{1}{2}mv^2\,when\,v\ll 1 $}
+$K = m(\frac{1}{\sqrt{1-v^2}}-1) $
+\hl{$E_{rest} = mc^2$}
+Proporties of Four Momentum Conversion
+\hl{$P_t^{\prime} = \gamma(P_t - \beta P_x) $}
+$P_x^{\prime} = \gamma(-\beta P_t + P_x) $ 
+\hl{$Four Momentum of Light$}
+$\frac{\rho}{E} = v = 1 \qquad \rho = E \qquad$
+\hl{$m^2 = E^2 - \rho^2 = 0$}
+
+\colorbox{SeaGreen}{Quantum}
+$E = \frac{1}{2}mv^2$\\
+Binomial approximation, is x is a real number close to 0 and alpha is a real number then $(1+x)^{\alpha}\approx1+\alpha x$\\ 
+\colorbox{BurntOrange}{The Quantum Theory of Light}
+\colorbox{Cyan}{BlackBody Radiation}
+\hl{Stefan's Law $e_{total} = a\sigma T^4$}
+Wien's Displacement law  $\lambda_{max}T = 2.898x10^{-3} mK$
+\hl{Plank Black Body Radiation Formula $u(f,T)=\frac{8\pi hf^3}{c^8}(\frac{1}{e^{\frac{hf}{k_bT}}-1})$}
+\colorbox{Cyan}{Photoelectric Effect}
+Einstein's theory of the photoelectric effect $K_{max}=hf-\phi$
+\hl{Photon Energy $E = \frac{hc}{\lambda} = hf \quad f =\frac{c}{\lambda}$}
+Bragg equation $n\lambda = 2dsin\theta \quad n = 1,2,3,...$
+\hl{X-ray photon emission $\lambda_{min} = \frac{hc}{eV}$}
+If you increase the intensity of the light you increase the measured current
+\colorbox{Cyan}{Compton Effec}
+\hl{$\lambda^\prime - \lambda_0 = \frac{h}{m_ec}(1-cos\theta)$}
+Energy Conservation $E = m_ec^2 = E^{\prime} + E_{e}$
+\hl{Momentum Conservation $p = p^{\prime}cos\theta + p_e cos\phi$}
+Energy and Momemtm $p_{photon} = \frac{E}{c} = \frac{hf}{c} = \frac{h}{\lambda}$
+\hl{$p_{electron} = mv$}
+
+\colorbox{BurntOrange}{The Particle Nature of Matter}
+$A = \frac{4}{3}\pi r^2$
+\hl{$f=\frac{E_i - E_f}{h}$}
+$c = fh$
+\hl{$\lambda = \frac{ch}{E_i - E_f}$}
+$K = \frac{1}{2}mv^2$ 
+\hl{$mv = \frac{E_{photon}}{c}$}
+$E= E_{photon} + \frac{1}{2}mv^2$
+\hl{$p = \frac{E_{photon}}{c}$}
+$\frac{1}{\lambda}=R(\frac{1}{n_f^2}-\frac{1}{n_i^2})$
+\hl{$f = \frac{c}{\lambda}$}
+$E = hf$
+\hl{$\frac{E}{c} = p$}
+$E = hcR \big( \frac{1}{n_f^2} - \frac{1}{n_i^2} \big)$ if $n_i > n_f$ energy released
+\hl{$\frac{f}{c} = \frac{1}{\lambda}$}
+$f = \frac{E_i - E_f}{h}$
+$\lambda = \frac{ch}{E_i - E_f}$
+\hl{$\lambda = \frac{ch}{E_i - E_f}$}
+\colorbox{Red}{Millikan's stuff}
+\colorbox{Cyan}{The Bohr Atom}
+\hl{$\frac{1}{\lambda}=R_{\infty}(\frac{1}{n_f^2-n_i^2})$}
+Plank-Enstein formula $E_i - E_f = hf$
+\hl{size of allowed electron orbits $m_evr = n\hbar \quad \hbar = \frac{h}{2\pi}$}
+n = orbital levels
+\hl{Total energy of the atom $E = K + U = \frac{1}{2}m_ev^2 - k\frac{e^2}{r}$}
+permittivity of free space $\epsilon_0 = 8.854x10^{-12} s^4A^2m^{-3}kg^{-1}$
+\hl{Radii of Bohr orbits in hydrogen $r_n=\frac{n^2\hbar^2}{m_eke^2} \quad n = 1,2,3,..$}
+Bohr radius the smallest radius occurs for n = 1, is called the Bohr radius, denoted by $a_0$
+\hl{$a_0 =\frac{4\pi \epsilon_0 \hbar^2}{m_e e^2} = 5.292x10^{-11}m$}
+Energy levels of hydrogen and hydrogen like $E_n = -\frac{ke^2}{2a_0}(\frac{Z^2}{n^2})  = -13.6\frac{Z^2}{n^2}eV$ n = 1,2,3... z = 1,2,3...
+\colorbox{Cyan}{Emission wavelengths of hydrogen}
+\hl{$\frac{1}{\lambda} = \frac{f}{c} = \frac{ke^2}{2a_0hc}(\frac{1}{n_f^2} - \frac{1}{n_i^2}))$}
+{could the 1's be replaced by Z squared}
+\colorbox{Red}{Corespondanced Principal}
+
+\colorbox{BurntOrange}{The Wave Nature of Matter}
+\hl{$p=mv$}
+$\lambda = \frac{h}{p}$
+\hl{$p = \gamma mv$}
+$\gamma = (1-\frac{v^2}{c^2})^{-\frac{1}{2}}$
+\hl{$\lambda = \frac{h \sqrt{1-(\frac{v}{c})^2}}{mv}$}
+$\lambda = \frac{h}{p}$
+\hl{$p = \frac{h}{\lambda}$}
+$k = \frac{p^2}{2m}$
+\hl{$k = \frac{3}{2}K_bT$}
+$\lambda p = \frac{hc}{E_{photon}}$
+\hl{$E = fh$}
+$f = \frac{c}{\lambda}$
+\hl{$E = \frac{ch}{\lambda}$}
+$\lambda = \frac{h}{p}$
+\hl{$KE = \frac{1}{2}mv^2$}
+$p=mv$
+\hl{$v=\frac{p}{m}$}
+$E=cp$
+\hl{$KE = \frac{1}{2} \frac{p^2}{m}$}
+$KE = \frac{1}{2}\frac{E^2}{c^2 m}$
+\hl{$v = \frac{d}{t}$}
+$\lambda = \frac{h}{p}$
+\hl{$p = mv$}
+$\lambda = \frac{h}{mv}$
+\hl{$\lambda = \frac{h}{p}$}
+$p = mv$
+\hl{$E = \frac{1}{2}mv^2$}
+$E = \frac{1}{2}pv$
+\hl{$p=\sqrt{2E}$}
+$\lambda = \frac{h}{\sqrt{k2m}}$
+\hl{$k = \frac{p^2}{2m}$}
+$k = (\frac{h}{\lambda})^2 \frac{1}{2me}$
+\hl{$KE\leftrightarrow E\leftrightarrow k \leftrightarrow K$ for most of these problems}
+$\Delta p_x \Delta x \geq \frac{\hbar}{2}$ 
+\hl{$p_x = \frac{\hbar}{2x} = \frac{h}{4\pi x}$}
+$E = \frac{1}{2}\frac{p^2}{m}$
+\hl{$p = \sqrt{2Em}$}
+$\sqrt{2Em} = \frac{h}{4\pi x}$
+\hl{$2Em = ( \frac{h}{4 \pi x} )^2$}
+$E = \frac{( \frac{h}{4\pi x})^2}{2m}$
+\hl{$E = cp$}
+$p_x = \frac{h}{4\pi x}$
+\hl{$\frac{E}{c} = \frac{h}{4\pi x}$}
+$E = \frac{ch}{4\pi x}$
+\hl{$\Delta E \Delta t \approx \frac{\hbar}{2}$}
+$\Delta p_x \Delta x \geq \frac{\hbar}{2}$
+\hl{$\Delta E = \frac{h}{4\pi \Delta t}$}
+$E = cp$
+\hl{$p = \frac{E}{c}$}
+$\lambda = \frac{hc}{E} $
+
+
+\colorbox{Cyan}{Pilot Waves of De Broglie}
+\hl{De Broglie Wavelengths $\lambda = \frac{h}{p} \quad f = \frac{E}{h} \quad p = \gamma mv \quad \gamma = (1-\frac{v^2}{c^2})^{-\frac{1}{2}}$}
+$E^2 = p^2c^2 + m^2c^4 = \gamma^2m^2c^4$
+\hl{Bohr orbits arise because the electron matter waves interfere constructively of a circular orbit}
+$n\lambda = 2\pi r \quad \lambda = \frac{h}{m_ev}$
+\hl{$m_evr = n\hbar$}
+\colorbox{Cyan}{Heisenberg Uncertainty Principle}
+$\Delta x \Delta p_x \geq \frac{\hbar}{2}$
+\hl{$\Delta y \Delta p_y \geq \frac{\hbar}{2}$}
+$\Delta z \Delta p_z \geq \frac{\hbar}{2}$
+\hl{$\Delta t \Delta E \geq \frac{\hbar}{2}$}
+
+\colorbox{BurntOrange}{Quantum Mechanics in One Dimension}
+\hl{$k =\frac{n\pi}{L}$}
+$E_n=n^2 E_1$
+\hl{$E_1=\frac{\pi^2 \hbar^2}{2mL^2}$}
+$E=\frac{hc}{\lambda}$
+\hl{$n_i^2(E_1) - n_f^2E_1 = \Delta E$}
+$n=\frac{(\frac{\Delta E}{E_1} + 1)}{2} = \frac{(\frac{\frac{hc}{\lambda}}{E_1}-1)}{2}$
+\hl{$hf = E_i - E_f$}
+$\frac{h}{p}$
+\hl{$E_n =\frac{ n^2 \pi^2 \hbar^2}{2mL^2}$}
+$n = \frac{2Lmv}{h}$
+\hl{$p=\frac{h}{\lambda}$}
+$\Delta E = \frac{hc}{\lambda} = hf$
+\hl{$\frac{hc}{\lambda} = E_i = E_f$}
+$\Delta E  = \frac{n^2 \pi ^2 \hbar^2}{2mL^2}$
+\hl{$\frac{hc}{\lambda} = \frac{1}{L^2}(\frac{n_i^2 \pi^2 h^2}{4\pi^2 2 m} - \frac{n_f^2 \pi^2 h^2}{4\pi^2 2 m})$}
+$L = \sqrt{\frac{\lambda}{hc}(\frac{n_i^2 \pi^2 h^2}{4\pi^2 2 m} - \frac{n_f^2 \pi^2 h^2}{4\pi^2 2 m})}$
+\hl{$\lambda = \frac{hc}{E_i = E_f}$}
+$E = \frac{n^2 h^2}{8mL^2}$
+\hl{$\lambda = \frac{hc 2mL^2}{(n_i^2 h^2)-(n_f^2 h^2)}$}
+$E = \frac{h^2}{8mL^2}$
+\hl{If halfed $L_{new} = \frac{L_old}{2}$}
+Wavenumber = k
+\hl{angular freqeuncy = $\omega$}
+$kL = n\pi$
+\hl{$k = \frac{2\pi}{\lambda}$}
+$\lambda = \frac{h}{p}$
+\hl{$p = mv$}
+$n=\frac{L(\frac{2\pi}{\frac{h}{mv}})}{\pi}$
+\hl{$n = \frac{2L mv}{\pi}$}
+$k = \frac{p}{\hbar}$
+\hl{$\omega = \frac{E}{\hbar}$}
+for nonrelativistic particle $\omega(k) = \frac{\hbar k^2}{2m}$
+\hl{$E_n = \frac{n^2 h^2}{8mL^2}$}
+$n = \frac{2Lmv}{h}$
+\colorbox{Cyan}{Corespondance principle for electrons}
+\hl{$p = \frac{x}{L}-\frac{1}{2\pi n} sin(\frac{2\pi n x}{L})$}
+classically left hand wall $\frac{x}{L}$
+\colorbox{Cyan}{Probabilities of Infinite Square Well}
+\hl{$p = \frac{x}{L}-\frac{1}{2\pi n} sin(\frac{2\pi n x}{L})$}
+\colorbox{Cyan}{Normalization of Wave Functions}
+$\psi = Asin(X)$
+\hl{$1 = \int_0^{\pi} |Asin(x)|^2 dx$}
+$A = \sqrt{\frac{2}{\pi}}$
+\colorbox{Red}{Particle Probability}
+\colorbox{Cyan}{Penetration Depth}
+\hl{probability finding particle $ x = L+\eta$ to $x=\eta$ $\eta=$ penetration distance L=width of wall $\langle p \rangle = \frac{1}{e^2}$}
+how many $\eta$ outside well for outside/inside ratio = x $\frac{ln(x)}{2} = \eta$
+\colorbox{Cyan}{Penetration at Top/Bottom of Well}
+\hl{$E_n = \frac{n^2 \pi \hbar^2}{2m(L+2\delta)^2}$}
+$\delta = \frac{\hbar}{\sqrt{2m(U-E)}} = \frac{1}{\alpha}$ U = depth of the well E = energy of the electron
+\colorbox{Red}{Energy levels in finite square well}
+\colorbox{Red}{nucleaus as square well potential}
+\colorbox{Cyan}{Transitions in a Harmonic Oscillator}
+\hl{$\lambda = \frac{h}{p}$}
+$k = \frac{2\pi}{\lambda}$
+\hl{$E = \frac{hc}{\lambda}$}
+$E_n = (n+frac{1}{2})\hbar \omega$
+\hl{$\Delta E = \hbar \omega$}
+$E = \frac{hc}{\lambda}$
+\hl{$f = \frac{c}{\lambda}$}
+$E_i - E_f = hf$
+\hl{$\omega = \frac{hc}{\lambda \hbar ((n_i + 1/2)-(n_f + 1/2))}$}
+$\omega = \frac{2\pi c}{\lambda ((n_i + 1/2)-(n_f + 1/2))}$
+\hl{$\Delta E = \frac{hc}{\lambda}$}
+$\Delta E = \frac{h\omega ((n_i + 1/2)-(n_f + 1/2))}{2\pi}$
+\hl{$\lambda = \frac{2\pi c}{\omega ((n_i + 1/2)-(n_f + 1/2)) }$}
+\colorbox{Cyan}{Energy Levels in harmonic oscilator}
+spring constant = k
+\hl{harmonic oscillator zero point energy n = 0 $E_0 = \frac{1}{2} \frac{h}{2\pi} \sqrt{\frac{k}{m}}$}
+$\Delta E = \hbar \omega $
+\hl{$hf = \hbar \omega = E$}
+$\omega = \sqrt{\frac{k}{m}}$
+\hl{$E_n = (n+\frac{1}{2})(\frac{h}{2\pi})(\sqrt{\frac{k}{m}})$}
+$E = \frac{hc}{\lambda}$
+\hl{$\frac{hc}{\lambda} = \hbar \omega((n_i + 1/2)-(n_f + 1/2))$}
+$\omega = \sqrt{\frac{k}{m}}$
+\hl{$\lambda = \frac{hc\sqrt{m}2\pi}{h\sqrt{k}((n_i + 1/2)-(n_f + 1/2))}$}
+\colorbox{Cyan}{Expectation values in an Infinite Square well}
+$n = 1 \langle x \rangle = \frac{L}{2}$
+\hl{$n = 1 \langle x^2 \rangle = 0.283 L^2$}
+$n = 1 \langle p \rangle = 0$
+\colorbox{Cyan}{Expectation Value and Most Probable Location}
+\hl{$\psi(x) = Ae^{-x}(1-e^{-x})$for$x\geq0$ and $\psi(x) = 0 $for$x\leq0$}
+$\int_0^L (\psi_n(x))^2 dx = 1$
+\hl{$\int_0^L (Ae^{-x}(1-e^{-x}))^2 dx = 1$}
+$ A^2 \int_0^L e^{-4x} - 2e^{-3x} + e^{-2x} dx = 1$
+\hl{$ (\frac{-e^{-4L}}{4})-(\frac{-1}{4}) + (\frac{2e^{-3L}}{3})-(\frac{2}{3}) + (\frac{-e^{-2L}}{2})-(\frac{-1}{2}) = \frac{1}{A^2}$}
+$lim \rightarrow \infty$
+\hl{$A = \sqrt{12}$}
+$A = 3.464$
+\colorbox{Fuchsia}{electron most likeley to be found}
+\hl{$(\psi_n)^2 dx = 0$}
+$\psi_n = 3.464 e^{-x}(1-e^{-x})$
+\hl{$(3.464 e^{-x}(1-e^{-x}))^2 dx = 0$}
+...
+\hl{$11.9993(\frac{2(1-e^{-x})}{e^{3x}} - \frac{2(1-e^{-x})^2}{e^{2x}})  = 0$}
+...
+\hl{$x = 0.693147$}
+\colorbox{Fuchsia}{calculate expectation value of position x}
+$\langle x \rangle = \int_0^{\infty} x|\psi(x)|^2 dx$
+\hl{$\langle x \rangle = \int_0^{\infty} x| 3.464 e^{-x} (1-e^{-x})) |^2 dx = 0$}
+$\langle x \rangle = 12 \int_0^{\infty} x (e^{-x} - e^{-2x})^2 dx = 0$
+\hl{$=\frac{13}{12} = 1.0833$}
+
+\colorbox{Thistle}{Quantum Mechanics in One Dimension, from test 2}
+\colorbox{Red}{WaveFunction}
+\colorbox{Red}{Classic Probability}
+\colorbox{Cyan}{Schrodiner Equation}
+\hl{$E\psi(x) = U(x)\psi(x) - \frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2}$}
+$E_n = \frac{\hbar^2k^2}{2m} = \frac{n^2\pi^2\hbar^2}{2mL^2}$
+\colorbox{Cyan}{Particle in a Box}
+\colorbox{Violet}{Find the Wave Function}
+\hl{$\psi(x) = Asinkx + B coskx$}
+Boundary conditions dictates that $\phi(x) = 0$ at x = 0 and x = L
+\hl{for x = 0, this means that B = 0}
+for x = L, this means that $kL = n\pi$ fro integer vaues of n
+\hl{$\psi_n(x) = A sin(\frac{n\pi x}{L})$}
+Find normalization constant for A
+\hl{$\int_{\infty}^{\infty} \psi_n(x)\psi_n(x)  dx = 1 \rightarrow $}
+$A^2 \int_{0}^{L}  sin^2(\frac{n\pi x}{L}) \rightarrow A = \sqrt{\frac{2}{L}}$
+\hl{Normalized wave function looks like th case of standing waves on a string with fixed ends:}
+$\psi_n(x) = \sqrt{\frac{2}{L}} sin(\frac{n\pi x}{L})$
+\colorbox{Cyan}{Find the Energy Levels}
+\hl{From  boundary conditions discrete wave number is:}
+$k_n = \frac{n\pi}{L}=\sqrt{\frac{2mE_n}{\hbar^2}}$
+\hl{This yields discrete energies}
+$E_n= \frac{\hbar^2 k_n^2}{2m} = \frac{\hbar^2}{2m}(\frac{n^2\pi^2}{L^2})=\frac{n^2h^2}{8mL^2}$
+\colorbox{Cyan}{Particle in a box:Classical vs Quantum}
+\hl{Classical Probability}
+$P(x)=\frac{1}{L}$
+\hl{Classical particle moving in a valley}
+$P_{Cl}(x) = \frac{2}{T}\frac{1}{v(x)}=\frac{2}{T}\sqrt{\frac{m}{2(E-U(x))}}$
+\hl{Quantum probability}
+$P(x) = |\psi(x)|^2 = \frac{2}{L}sin^2(\frac{n\pi x}{L})$
+\hl{KE of particle in Box}
+$E_n = \frac{1}{2}mv^2 = \frac{n^2h^2}{8mL^2} \quad E_{min} = \frac{p^2}{2m} = \frac{\hbar^2}{8mL^2}$
+\colorbox{Cyan}{Finite Square Well}
+\hl{Schrodinger eqn outside finite well:}
+$\alpha^2 = \frac{2m(V_0 - E)}{\hbar^2} \quad k^2 = \frac{2mE}{\hbar^2}$
+\colorbox{Cyan}{Penetration Depth}
+\hl{$\eta = \frac{1}{\alpha} = \frac{\hbar}{\sqrt{2m(V_0 - E)}}$}
+\colorbox{Cyan}{Harmonic Oscillator}
+Potential energy
+\hl{$U(x) = \frac{1}{2}kx^2$}
+Energy Levels
+\hl{$E_n = (n+\frac{1}{2})\hbar \sqrt{\frac{k}{m}} = (n+\frac{1}{2})\hbar \omega$}
+$hf = \hbar\omega$
+\hl{Zero point energy}
+$E_0 = \frac{1}{2}\hbar \omega$
+
+\colorbox{BurntOrange}{Tunneling Phenomena}
+\colorbox{Cyan}{Tunneling Phenomena}
+\colorbox{Cyan}{Potential Step}
+\hl{Reflection coefficient }
+$R = (\frac{k-\alpha}{k+\alpha})^2$\\ $\alpha = k_2$ $k = k_1$
+\hl{$k = \frac{p}{\hbar}$  $\omega = \frac{E}{\hbar}$ $k=\frac{\omega p}{E}$}
+Transmission coefficient
+\hl{$T(E)=\{1+\frac{1}{4}[\frac{U^2}{E(U-E)}]sinh^2\alpha L \}^{-1}$}
+$T = 1-R = \frac{4k\alpha}{(k+\alpha)^2}$
+\hl{Quantization o Angular Momentum}
+$L=\sqrt{l(l+1)}$
+\hl{Probability Distribution}
+\colorbox{Cyan}{what is Bohr radius}
+$r = \frac{n^2 a_0}{Z}$
+\hl{$T = 1 - R$}
+$R = (\frac{k-\alpha}{k+\alpha})^2$
+\hl{$T(E)=\{1+\frac{1}{4}[\frac{U^2}{E(U-E)}]sinh^2\alpha L \}^{-1}$}
+$sinh (x) = \frac{e^{x} + e^{-x}}{2}$
+\hl{$T \approx e^{-2\alpha L}$}
+\colorbox{Cyan}{Reflection and Transmision Coeficients for a potential Barrier}
+\hl{Case1) $E<V_0$ and $\alpha^2 = \frac{2m(V_0-E)}{\hbar^2}> 0$}
+Case2) $E>V_0$ and $\alpha^2 = \frac{2m(E-V_0)}{\hbar^2}> 0$
+
+\colorbox{BurntOrange}{Quantum Mechanics in Three Dimensions}
+\colorbox{Cyan}{article in a 3D Box}
+\hl{Normalized Wavefunction $\sqrt{\frac{8}{L^3}}sin(\frac{n_x\pi x}{L})sin(\frac{n_y\pi x}{L})sin(\frac{n_z\pi x}{L})$}
+Quantized Energy $E = (n_x^2 +n_y^2 +n_z^2)\frac{\pi^2 \hbar^2}{2mL^2}$
+\hl{Schrodinger equation in three dimensions $-\frac{\hbar^2}{2m}\nabla^2\psi + U(r)\psi = i\hbar \frac{\partial\psi}{\partial t}$}
+Laplacian = $\nabla^2 = \frac{\partial^2}{\partial x^2}+\frac{\partial^2}{\partial y^2}+\frac{\partial^2}{\partial z^2}$
+\hl{The time-independent Schrodinger equation $-\frac{\hbar^2}{2m}\nabla^2\psi + U(r)\psi = E\psi (r)$}  
+allowed values of momentum components for particle in a box 
+\hl{$|p_x| = \hbar k_1 = n_1\frac{\pi \hbar}{L}$ for $ n_1 = 1,2,... $}
+$|p_y| = \hbar k_2 = n_2\frac{\pi \hbar}{L}$ for $ n_2 = 1,2,... $
+\hl{$|p_z| = \hbar k_3 = n_3\frac{\pi \hbar}{L}$ for $ n_3 = 1,2,... $}
+Discrete energies allowed for a particle in a box
+\hl{$E=\frac{1}{2m}(|p_x|^2+|p_y|^2+|p_z|^2)=\frac{\pi^2\hbar^2}{2mL^2} \{n_1^2+n_2^2+n_3^2\}$}
+$E=\frac{1}{2m}(|p_x|^2+|p_y|^2+|p_z|^2)=\frac{\pi^2\hbar^2}{2m} \{(\frac{n_1}{L_1})^2+(\frac{n_2}{L_2})^2+(\frac{n_3}{L_3})^2\}$
+\hl{Hydrogen Atom and Hydrogen Like}
+$E_n = \frac{-13.6}{n^2}eV$
+\hl{Degeneracy = $n^2$}
+$E_n=\frac{-Ke^2}{2a_0}\{\frac{Z^2}{n^2}\}$
+\hl{Angular Momentum Vector = $|L|=\sqrt{l(l+1)}\hbar$}
+Z component = $L_z=m_l\hbar$
+\hl{Orientations of L are quantized = $cos\theta = \frac{L_z}{|L|}=\frac{m_l}{\sqrt{l(l+1)}}$}
+Change in n and emission of Photon $13.6eV(\frac{1}{n_2^2}-\frac{1}{n_1^2})=\frac{hc}{\lambda}(\frac{1}{1.6x10^{-19}})$
+\colorbox{Violet}{expectation values} Example expectation values for a particle in a box in a general state labeled by n
+$\langle x \rangle= \frac{L}{2}$
+\hl{Hydrogen ground state most probable radius(and hydrogen like)}
+$P(r)=\frac{4Z^3}{a_0^3}r^2e^{\frac{-2Zr}{a_0}}$
+\hl{average radius of the electron $r = \frac{a_0}{Z}$}
+fixed n, electron with highest angular momentum found at distance $r = n^2 a_0$
+\hl{the letters s,p,d,f used to designante $l = 0,1,2,3$}
+\colorbox{Blue}{Zeeman Effect}
+magnetic moment $\mu = IA$ Potential energy due to external magnetic field in z-direction $U=-\vec{\mu}B = \mu_B m_l B$
+\hl{magnet placed in B field has interaftion potential energy $ U = -\mu B$}
+magnetic moment due to current loop $\vec{\mu} =-\frac{e}{2m}\vec{L}$
+\hl{Zeeman Effect $E = E_n + \mu_B m_l B$}
+\colorbox{Blue}{electron spin}
+intrinsic $S = \frac{\sqrt{3}}{2}\hbar$
+\hl{angle between electron's spin angular momentum and its +z component}
+$Cos \theta = \frac{S_z}{S}=\frac{\frac{\hbar}{2}}{[\sqrt{3/2\hbar}]}$ = $\frac{1}{\sqrt{3}}$
+\hl{Electron transitions with spin $(2n+1)$}
+degeneracy with spin $2(n^2)$
+\hl{electron spin}
+
+\colorbox{Orange}{Atomic Structure}
+J is total angular momentum with spin $J = L + S$
+\hl{high l = circular orbit, low l - eleptical orbit due to pull from nucleaus}
+$E_n = \frac{-13.6Z^2}{n^2}eV$
+\hl{effective nuclear charge $Z_{eff}$}
+$E_{nl}=-\frac{Z_{eff}^{2}}{n^2}(13.6eV)$
+\hl{Mosely law for xray frequency}
+$f=(2.47x10^{15}Hz)(Z-1)^2$
+
+%\end{multicols}
+\end{document}  
